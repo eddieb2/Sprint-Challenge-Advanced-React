@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const CardWrapper = styled.div`
-  border: 2px solid black;
+  border: 2px solid lightgray;
   display: flex;
   flex-direction: column;
   align-items: center;

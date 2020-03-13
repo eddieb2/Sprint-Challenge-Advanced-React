@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import axios from "axios";
 import CardList from "./Components/CardList";
+import Navigation from "./Components/Navigation";
+import "./App.css";
 
 export class App extends Component {
   constructor() {
@@ -23,6 +25,7 @@ export class App extends Component {
   render() {
     return (
       <div>
+        <Navigation />
         <CardList data={this.state} />
       </div>
     );
